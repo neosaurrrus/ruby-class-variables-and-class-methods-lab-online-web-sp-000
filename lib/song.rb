@@ -43,7 +43,7 @@ class Song
     end # end of genre.each
     @@genre_count
   end  # end of method
-  
+
   def self.artist_count
     @@artists.each do | artist |
       # @@artist_count["#{artist}"] = 1
