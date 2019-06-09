@@ -46,21 +46,15 @@ class Song
   # end
 
   def self.genre_count
-
-
     @@genres.each do | genre |
       if genre_count.key?(genre)
         genre_count["genre"] +=1
       else
         genre_count["genre"] = 1
-      end
-    end # end of artists.each
-
+      end # end of if
+    end # end of genre.each
     @@genre_count
-    end
-
-
-
-  end
+  end  # end of method
+  
 
 end
