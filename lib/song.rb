@@ -41,7 +41,7 @@ class Song
   #     artist_count["artist"] = 1
   #   end
   # end # end of artists.each
-  # 
+  #
   # @@artist_count
   # end
 
