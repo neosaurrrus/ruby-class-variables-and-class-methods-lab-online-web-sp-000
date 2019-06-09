@@ -46,11 +46,12 @@ class Song
 
   def self.genre_count
     @@genres.each do | genre |
-      if genre_count.key?(genre)
-        @@genre_count[:genre] += 1
-      else
-        @@genre_count[:genre] = 1
-      end # end of if
+      @@genre_count = 1
+      # if genre_count.key?(genre)
+      #   @@genre_count[:genre] += 1
+      # else
+      #   @@genre_count[:genre] = 1
+      # end # end of if
     end # end of genre.each
     @@genre_count
   end  # end of method
